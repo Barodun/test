@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1272px;
+  border: 1px solid #b762c1;
+  border-radius: 0.5rem;
+  background-color: #fcfcfc;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.875rem;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  background: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+input {
+  color: #535151ec;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.todo__enter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.todo__enter button {
+  background-color: #b762c1;
+  padding: 1rem 2.5rem;
+}
+
+.todo__enter input {
+  padding: 0 14rem;
+}
+
+.todo__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 2rem 0;
+}
+
+.todo__search p {
+  color: #535050a9;
+}
+
+.todo__search button {
+  background-color: #ffcddd;
+  padding: 1rem 5.5rem;
+}
+
+.todo__search input {
+  padding: 1rem 3rem;
+}
+
+.todo__wrapper {
+  max-width: 41rem;
+  padding: 2rem 1rem 0.5rem;
+  margin: 2.5rem auto;
+  background: #f6d8ee;
+  border-radius: 0.5rem;
+}
+
+.todo__wrapper[checked="true"] {
+  background: #f7f3e2;
+}
+
+.todo__wrapper[checked="true"] .todo__date {
+  color: #b762c1;
+}
+
+.todo__wrapper[checked="true"] .todo__name {
+  text-decoration: line-through;
+}
+
+.todo__wrapper[checked="true"] .done {
+  background: red;
+}
+
+.todo__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.todo__text button {
+  background-color: #b762c1;
+  padding: 1rem 1.2rem;
+  margin: 0 1.5rem;
+}
+
+.todo__date {
+  font-size: 1rem;
+  text-align: center;
+  width: 25rem;
+  color: #52687cab;
+}
+
+.todo__name {
+  width: 25rem;
+  text-align: center;
+  padding-top: 1rem;
+  background: #fff;
+}
+/*# sourceMappingURL=style.css.map */
